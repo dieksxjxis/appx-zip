@@ -13,8 +13,8 @@ CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/+nm7l_gfr5axkMTA8')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
 # MongoDB Configuration
-MONGO_URL = environ.get("MONGO_URL", "")
-DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
+MONGO_URL = environ.get("MONGO_URL", "mongodb+srv://manojrewa9876_db_user:6DObg9qBxqhsKaTZ@cluster0.vwjrocl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get("DATABASE_NAME", "manojrewa9876")
 
 # Owner and Admin Configuration
 OWNER_ID = int(environ.get("OWNER_ID", "5927517339"))  # Use OWNER as fallback
@@ -70,5 +70,6 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
