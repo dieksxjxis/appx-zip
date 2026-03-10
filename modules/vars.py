@@ -3,13 +3,13 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "26713214"))
-API_HASH = environ.get("API_HASH", "fc87c0fb26949deb0bc940dd35c1658d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "25693368"))
+API_HASH = environ.get("API_HASH", "2dcf91b0f99c0b9d4875e87020e6bd07")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8237450306:AAH-fdWEzz5Om_iyeQqVAvpnqA9l30H9Odk")
 
-OWNER = int(environ.get("OWNER", "7752941299"))
-CREDIT = environ.get("CREDIT", '👨‍💻Rick Johnson')
-CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/rick007contactbot')
+OWNER = int(environ.get("OWNER", "5927517339"))
+CREDIT = environ.get("CREDIT", '『ASTRONAUT』')
+CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/+nm7l_gfr5axkMTA8')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
 # MongoDB Configuration
@@ -17,7 +17,7 @@ MONGO_URL = environ.get("MONGO_URL", "")
 DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
 
 # Owner and Admin Configuration
-OWNER_ID = int(environ.get("OWNER_ID", "7752941299"))  # Use OWNER as fallback
+OWNER_ID = int(environ.get("OWNER_ID", "5927517339"))  # Use OWNER as fallback
 ADMINS = [OWNER_ID]  # Can be extended via environment
   
 #WEBHOOK = True  # Don't change this
@@ -70,4 +70,5 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
